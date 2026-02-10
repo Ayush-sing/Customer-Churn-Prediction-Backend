@@ -30,6 +30,7 @@ The API predicts churn probability and provides business-level analytics such as
 
 ## 📂 Project Structure
 
+```bash
 backend/
 │
 ├── app/
@@ -44,7 +45,7 @@ backend/
 │
 ├── requirements.txt
 └── start.sh
-
+```
 ---
 
 ## 🔌 API Endpoints
