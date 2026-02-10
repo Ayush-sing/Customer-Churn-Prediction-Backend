@@ -31,6 +31,9 @@ threshold = model_data["threshold"]
 feature_names = model_data["feature_names"]
 explainer = model_data["explainer"]
 
+@app.get("/")
+def root():
+    return {"message": "Customer Churn Prediction API is running"}
 
 
 # ---------------- PREDICT ----------------
