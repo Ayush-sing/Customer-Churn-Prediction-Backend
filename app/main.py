@@ -66,7 +66,7 @@ def batch_predict():
     X = df.drop("Churn", axis=1)
 
     # Re-encode like training
-    from ml.preprocess import encode_categorical
+    from app.ml.preprocess import encode_categorical
     X_encoded = encode_categorical(X)
 
     values_scaled = scaler.transform(X_encoded)
@@ -94,7 +94,7 @@ def analytics():
 
     X = df.drop("Churn", axis=1)
 
-    from ml.preprocess import encode_categorical
+    from app.ml.preprocess import encode_categorical
     X_encoded = encode_categorical(X)
 
     values_scaled = scaler.transform(X_encoded)
