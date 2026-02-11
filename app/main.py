@@ -11,8 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000",
-                   "https://customer-churn-prediction-frontend-three.vercel.app"],
+    allow_origins=["https://customer-churn-prediction-frontend-three.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
