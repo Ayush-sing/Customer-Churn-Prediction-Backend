@@ -5,6 +5,16 @@ It provides machine learning predictions, analytics, and feature importance usin
 
 ---
 
+## DEMO Link
+``` bash
+
+
+https://customer-churn-prediction-frontend-three.vercel.app/dashboard
+
+```
+
+---
+
 ## 🚀 Tech Stack
 
 - FastAPI
